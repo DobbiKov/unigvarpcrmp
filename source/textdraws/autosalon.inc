@@ -1,0 +1,307 @@
+	// - Autosalon TD
+	auto_salon_td[playerid][0] = CreatePlayerTextDraw(playerid, 641.449401, 166.306243, "usebox");
+	PlayerTextDrawLetterSize(playerid, auto_salon_td[playerid][0], 0.000000, 15.673357);
+	PlayerTextDrawTextSize(playerid, auto_salon_td[playerid][0], 514.799682, 0.000000);
+	PlayerTextDrawAlignment(playerid, auto_salon_td[playerid][0], 1);
+	PlayerTextDrawColor(playerid, auto_salon_td[playerid][0], 0);
+	PlayerTextDrawUseBox(playerid, auto_salon_td[playerid][0], true);
+	PlayerTextDrawBoxColor(playerid, auto_salon_td[playerid][0], 102);
+	PlayerTextDrawSetShadow(playerid, auto_salon_td[playerid][0], 0);
+	PlayerTextDrawSetOutline(playerid, auto_salon_td[playerid][0], 0);
+	PlayerTextDrawFont(playerid, auto_salon_td[playerid][0], 0);
+
+	auto_salon_td[playerid][1] = CreatePlayerTextDraw(playerid, 640.699218, 166.693740, "usebox");
+	PlayerTextDrawLetterSize(playerid, auto_salon_td[playerid][1], 0.000000, 1.433333);
+	PlayerTextDrawTextSize(playerid, auto_salon_td[playerid][1], 515.249511, 0.000000);
+	PlayerTextDrawAlignment(playerid, auto_salon_td[playerid][1], 1);
+	PlayerTextDrawColor(playerid, auto_salon_td[playerid][1], 0);
+	PlayerTextDrawUseBox(playerid, auto_salon_td[playerid][1], true);
+	PlayerTextDrawBoxColor(playerid, auto_salon_td[playerid][1], -3407744);
+	PlayerTextDrawSetShadow(playerid, auto_salon_td[playerid][1], 0);
+	PlayerTextDrawSetOutline(playerid, auto_salon_td[playerid][1], 0);
+	PlayerTextDrawFont(playerid, auto_salon_td[playerid][1], 0);
+
+	auto_salon_td[playerid][2] = CreatePlayerTextDraw(playerid, 527.450073, 165.812500, "юбрняюкнм");
+	PlayerTextDrawLetterSize(playerid, auto_salon_td[playerid][2], 0.428950, 1.318688);
+	PlayerTextDrawAlignment(playerid, auto_salon_td[playerid][2], 1);
+	PlayerTextDrawColor(playerid, auto_salon_td[playerid][2], -1);
+	PlayerTextDrawSetShadow(playerid, auto_salon_td[playerid][2], 0);
+	PlayerTextDrawSetOutline(playerid, auto_salon_td[playerid][2], 0);
+	PlayerTextDrawBackgroundColor(playerid, auto_salon_td[playerid][2], 51);
+	PlayerTextDrawFont(playerid, auto_salon_td[playerid][2], 2);
+	PlayerTextDrawSetProportional(playerid, auto_salon_td[playerid][2], 1);
+
+	auto_salon_td[playerid][3] = CreatePlayerTextDraw(playerid, 529.050231, 184.137496, "бшаепхре юбрнлнахкэ");
+	PlayerTextDrawLetterSize(playerid, auto_salon_td[playerid][3], 0.211349, 0.969564);
+	PlayerTextDrawAlignment(playerid, auto_salon_td[playerid][3], 1);
+	PlayerTextDrawColor(playerid, auto_salon_td[playerid][3], -1);
+	PlayerTextDrawSetShadow(playerid, auto_salon_td[playerid][3], 0);
+	PlayerTextDrawSetOutline(playerid, auto_salon_td[playerid][3], 0);
+	PlayerTextDrawBackgroundColor(playerid, auto_salon_td[playerid][3], 51);
+	PlayerTextDrawFont(playerid, auto_salon_td[playerid][3], 2);
+	PlayerTextDrawSetProportional(playerid, auto_salon_td[playerid][3], 1);
+
+	auto_salon_td[playerid][4] = CreatePlayerTextDraw(playerid, 628.600158, 199.337493, "usebox");
+	PlayerTextDrawLetterSize(playerid, auto_salon_td[playerid][4], 0.000000, 1.238888);
+	PlayerTextDrawTextSize(playerid, auto_salon_td[playerid][4], 532.100158, 0.000000);
+	PlayerTextDrawAlignment(playerid, auto_salon_td[playerid][4], 1);
+	PlayerTextDrawColor(playerid, auto_salon_td[playerid][4], 0);
+	PlayerTextDrawUseBox(playerid, auto_salon_td[playerid][4], true);
+	PlayerTextDrawBoxColor(playerid, auto_salon_td[playerid][4], 102);
+	PlayerTextDrawSetShadow(playerid, auto_salon_td[playerid][4], 0);
+	PlayerTextDrawSetOutline(playerid, auto_salon_td[playerid][4], 0);
+	PlayerTextDrawFont(playerid, auto_salon_td[playerid][4], 0);
+
+	auto_salon_td[playerid][5] = CreatePlayerTextDraw(playerid, 545.899719, 199.724975, "usebox");
+	PlayerTextDrawLetterSize(playerid, auto_salon_td[playerid][5], 0.000000, 1.118888);
+	PlayerTextDrawTextSize(playerid, auto_salon_td[playerid][5], 533.250122, 0.000000);
+	PlayerTextDrawAlignment(playerid, auto_salon_td[playerid][5], 1);
+	PlayerTextDrawColor(playerid, auto_salon_td[playerid][5], 0);
+	PlayerTextDrawUseBox(playerid, auto_salon_td[playerid][5], true);
+	PlayerTextDrawBoxColor(playerid, auto_salon_td[playerid][5], -1);
+	PlayerTextDrawSetShadow(playerid, auto_salon_td[playerid][5], 0);
+	PlayerTextDrawSetOutline(playerid, auto_salon_td[playerid][5], 0);
+	PlayerTextDrawFont(playerid, auto_salon_td[playerid][5], 0);
+
+	auto_salon_td[playerid][6] = CreatePlayerTextDraw(playerid, 627.999694, 199.587463, "usebox");
+	PlayerTextDrawLetterSize(playerid, auto_salon_td[playerid][6], 0.000000, 1.118888);
+	PlayerTextDrawTextSize(playerid, auto_salon_td[playerid][6], 614.350097, 0.000000);
+	PlayerTextDrawAlignment(playerid, auto_salon_td[playerid][6], 1);
+	PlayerTextDrawColor(playerid, auto_salon_td[playerid][6], 0);
+	PlayerTextDrawUseBox(playerid, auto_salon_td[playerid][6], true);
+	PlayerTextDrawBoxColor(playerid, auto_salon_td[playerid][6], -1);
+	PlayerTextDrawSetShadow(playerid, auto_salon_td[playerid][6], 0);
+	PlayerTextDrawSetOutline(playerid, auto_salon_td[playerid][6], 0);
+	PlayerTextDrawFont(playerid, auto_salon_td[playerid][6], 0);
+
+	auto_salon_td[playerid][7] = CreatePlayerTextDraw(playerid, 536.999694, 196.875030, "<");
+	PlayerTextDrawLetterSize(playerid, auto_salon_td[playerid][7], 0.324499, 1.692500);
+	PlayerTextDrawTextSize(playerid, auto_salon_td[playerid][7], 542.549987, 37.537494);
+	PlayerTextDrawAlignment(playerid, auto_salon_td[playerid][7], 1);
+	PlayerTextDrawColor(playerid, auto_salon_td[playerid][7], 255);
+	PlayerTextDrawSetShadow(playerid, auto_salon_td[playerid][7], 0);
+	PlayerTextDrawSetOutline(playerid, auto_salon_td[playerid][7], 0);
+	PlayerTextDrawFont(playerid, auto_salon_td[playerid][7], 1);
+	PlayerTextDrawSetSelectable(playerid, auto_salon_td[playerid][7], true);
+
+	auto_salon_td[playerid][8] = CreatePlayerTextDraw(playerid, 619.199768, 196.781280, ">");
+	PlayerTextDrawLetterSize(playerid, auto_salon_td[playerid][8], 0.324499, 1.692500);
+	PlayerTextDrawTextSize(playerid, auto_salon_td[playerid][8], 624.049987, 9.537494);
+	PlayerTextDrawAlignment(playerid, auto_salon_td[playerid][8], 1);
+	PlayerTextDrawColor(playerid, auto_salon_td[playerid][8], 255);
+	PlayerTextDrawSetShadow(playerid, auto_salon_td[playerid][8], 0);
+	PlayerTextDrawSetOutline(playerid, auto_salon_td[playerid][8], 0);
+	PlayerTextDrawFont(playerid, auto_salon_td[playerid][8], 1);
+	PlayerTextDrawSetSelectable(playerid, auto_salon_td[playerid][8], true);
+
+	auto_salon_td[playerid][9] = CreatePlayerTextDraw(playerid, 552.000000, 198.931335, "TOYOTA MARK 2");
+	PlayerTextDrawLetterSize(playerid, auto_salon_td[playerid][9], 0.177549, 1.129688);
+	PlayerTextDrawAlignment(playerid, auto_salon_td[playerid][9], 1);
+	PlayerTextDrawColor(playerid, auto_salon_td[playerid][9], -1);
+	PlayerTextDrawSetShadow(playerid, auto_salon_td[playerid][9], 0);
+	PlayerTextDrawSetOutline(playerid, auto_salon_td[playerid][9], 0);
+	PlayerTextDrawBackgroundColor(playerid, auto_salon_td[playerid][9], 51);
+	PlayerTextDrawFont(playerid, auto_salon_td[playerid][9], 2);
+	PlayerTextDrawSetProportional(playerid, auto_salon_td[playerid][9], 1);
+
+	auto_salon_td[playerid][10] = CreatePlayerTextDraw(playerid, 519.600097, 197.793716, "hud:radar_impound");
+	PlayerTextDrawLetterSize(playerid, auto_salon_td[playerid][10], 0.000000, 0.000000);
+	PlayerTextDrawTextSize(playerid, auto_salon_td[playerid][10], 12.450012, 12.337508);
+	PlayerTextDrawAlignment(playerid, auto_salon_td[playerid][10], 1);
+	PlayerTextDrawColor(playerid, auto_salon_td[playerid][10], -1);
+	PlayerTextDrawSetShadow(playerid, auto_salon_td[playerid][10], 0);
+	PlayerTextDrawSetOutline(playerid, auto_salon_td[playerid][10], 0);
+	PlayerTextDrawFont(playerid, auto_salon_td[playerid][10], 4);
+
+	auto_salon_td[playerid][11] = CreatePlayerTextDraw(playerid, 530.400146, 217.599945, "бшаепхре жбер юбрнлнахкъ");
+	PlayerTextDrawLetterSize(playerid, auto_salon_td[playerid][11], 0.169348, 1.013751);
+	PlayerTextDrawAlignment(playerid, auto_salon_td[playerid][11], 1);
+	PlayerTextDrawColor(playerid, auto_salon_td[playerid][11], -1);
+	PlayerTextDrawSetShadow(playerid, auto_salon_td[playerid][11], 0);
+	PlayerTextDrawSetOutline(playerid, auto_salon_td[playerid][11], 0);
+	PlayerTextDrawBackgroundColor(playerid, auto_salon_td[playerid][11], 51);
+	PlayerTextDrawFont(playerid, auto_salon_td[playerid][11], 2);
+	PlayerTextDrawSetProportional(playerid, auto_salon_td[playerid][11], 1);
+
+	auto_salon_td[playerid][12] = CreatePlayerTextDraw(playerid, 629.600158, 237.087493, "usebox");
+	PlayerTextDrawLetterSize(playerid, auto_salon_td[playerid][12], 0.000000, 1.238888);
+	PlayerTextDrawTextSize(playerid, auto_salon_td[playerid][12], 532.100158, 0.000000);
+	PlayerTextDrawAlignment(playerid, auto_salon_td[playerid][12], 1);
+	PlayerTextDrawColor(playerid, auto_salon_td[playerid][12], 0);
+	PlayerTextDrawUseBox(playerid, auto_salon_td[playerid][12], true);
+	PlayerTextDrawBoxColor(playerid, auto_salon_td[playerid][12], 102);
+	PlayerTextDrawSetShadow(playerid, auto_salon_td[playerid][12], 0);
+	PlayerTextDrawSetOutline(playerid, auto_salon_td[playerid][12], 0);
+	PlayerTextDrawFont(playerid, auto_salon_td[playerid][12], 0);
+
+	auto_salon_td[playerid][13] = CreatePlayerTextDraw(playerid, 546.899719, 237.474975, "usebox");
+	PlayerTextDrawLetterSize(playerid, auto_salon_td[playerid][13], 0.000000, 1.118888);
+	PlayerTextDrawTextSize(playerid, auto_salon_td[playerid][13], 533.250122, 0.000000);
+	PlayerTextDrawAlignment(playerid, auto_salon_td[playerid][13], 1);
+	PlayerTextDrawColor(playerid, auto_salon_td[playerid][13], 0);
+	PlayerTextDrawUseBox(playerid, auto_salon_td[playerid][13], true);
+	PlayerTextDrawBoxColor(playerid, auto_salon_td[playerid][13], -1);
+	PlayerTextDrawSetShadow(playerid, auto_salon_td[playerid][13], 0);
+	PlayerTextDrawSetOutline(playerid, auto_salon_td[playerid][13], 0);
+	PlayerTextDrawFont(playerid, auto_salon_td[playerid][13], 0);
+
+	auto_salon_td[playerid][14] = CreatePlayerTextDraw(playerid, 628.999694, 237.337463, "usebox");
+	PlayerTextDrawLetterSize(playerid, auto_salon_td[playerid][14], 0.000000, 1.118888);
+	PlayerTextDrawTextSize(playerid, auto_salon_td[playerid][14], 614.350097, 0.000000);
+	PlayerTextDrawAlignment(playerid, auto_salon_td[playerid][14], 1);
+	PlayerTextDrawColor(playerid, auto_salon_td[playerid][14], 0);
+	PlayerTextDrawUseBox(playerid, auto_salon_td[playerid][14], true);
+	PlayerTextDrawBoxColor(playerid, auto_salon_td[playerid][14], -1);
+	PlayerTextDrawSetShadow(playerid, auto_salon_td[playerid][14], 0);
+	PlayerTextDrawSetOutline(playerid, auto_salon_td[playerid][14], 0);
+	PlayerTextDrawFont(playerid, auto_salon_td[playerid][14], 0);
+
+	auto_salon_td[playerid][15] = CreatePlayerTextDraw(playerid, 537.299621, 234.187530, "<");
+	PlayerTextDrawLetterSize(playerid, auto_salon_td[playerid][15], 0.324499, 1.692500);
+	PlayerTextDrawTextSize(playerid, auto_salon_td[playerid][15], 542.549987, 37.537494);
+	PlayerTextDrawAlignment(playerid, auto_salon_td[playerid][15], 1);
+	PlayerTextDrawColor(playerid, auto_salon_td[playerid][15], 255);
+	PlayerTextDrawSetShadow(playerid, auto_salon_td[playerid][15], 0);
+	PlayerTextDrawSetOutline(playerid, auto_salon_td[playerid][15], 0);
+	PlayerTextDrawFont(playerid, auto_salon_td[playerid][15], 1);
+	PlayerTextDrawSetSelectable(playerid, auto_salon_td[playerid][15], true);
+
+	auto_salon_td[playerid][16] = CreatePlayerTextDraw(playerid, 619.749938, 234.312545, ">");
+	PlayerTextDrawLetterSize(playerid, auto_salon_td[playerid][16], 0.324499, 1.692500);
+	PlayerTextDrawTextSize(playerid, auto_salon_td[playerid][16], 625.549987, 9.537494);
+	PlayerTextDrawAlignment(playerid, auto_salon_td[playerid][16], 1);
+	PlayerTextDrawColor(playerid, auto_salon_td[playerid][16], 255);
+	PlayerTextDrawSetShadow(playerid, auto_salon_td[playerid][16], 0);
+	PlayerTextDrawSetOutline(playerid, auto_salon_td[playerid][16], 0);
+	PlayerTextDrawFont(playerid, auto_salon_td[playerid][16], 1);
+	PlayerTextDrawSetSelectable(playerid, auto_salon_td[playerid][16], true);
+
+	auto_salon_td[playerid][17] = CreatePlayerTextDraw(playerid, 534.050231, 238.843704, "usebox");
+	PlayerTextDrawLetterSize(playerid, auto_salon_td[playerid][17], 0.000000, 0.801388);
+	PlayerTextDrawTextSize(playerid, auto_salon_td[playerid][17], 518.050231, 0.000000);
+	PlayerTextDrawAlignment(playerid, auto_salon_td[playerid][17], 1);
+	PlayerTextDrawColor(playerid, auto_salon_td[playerid][17], 0);
+	PlayerTextDrawUseBox(playerid, auto_salon_td[playerid][17], true);
+	PlayerTextDrawBoxColor(playerid, auto_salon_td[playerid][17], 102);
+	PlayerTextDrawSetShadow(playerid, auto_salon_td[playerid][17], 0);
+	PlayerTextDrawSetOutline(playerid, auto_salon_td[playerid][17], 0);
+	PlayerTextDrawFont(playerid, auto_salon_td[playerid][17], 0);
+
+	auto_salon_td[playerid][18] = CreatePlayerTextDraw(playerid, 533.700073, 238.975021, "usebox");
+	PlayerTextDrawLetterSize(playerid, auto_salon_td[playerid][18], 0.000000, 0.058054);
+	PlayerTextDrawTextSize(playerid, auto_salon_td[playerid][18], 518.799987, 0.000000);
+	PlayerTextDrawAlignment(playerid, auto_salon_td[playerid][18], 1);
+	PlayerTextDrawColor(playerid, auto_salon_td[playerid][18], 0);
+	PlayerTextDrawUseBox(playerid, auto_salon_td[playerid][18], true);
+	PlayerTextDrawBoxColor(playerid, auto_salon_td[playerid][18], -1714683649);
+	PlayerTextDrawSetShadow(playerid, auto_salon_td[playerid][18], 0);
+	PlayerTextDrawSetOutline(playerid, auto_salon_td[playerid][18], 0);
+	PlayerTextDrawFont(playerid, auto_salon_td[playerid][18], 0);
+
+	auto_salon_td[playerid][19] = CreatePlayerTextDraw(playerid, 533.800170, 244.218795, "usebox");
+	PlayerTextDrawLetterSize(playerid, auto_salon_td[playerid][19], 0.000000, 0.108055);
+	PlayerTextDrawTextSize(playerid, auto_salon_td[playerid][19], 518.599975, 0.000000);
+	PlayerTextDrawAlignment(playerid, auto_salon_td[playerid][19], 1);
+	PlayerTextDrawColor(playerid, auto_salon_td[playerid][19], 0);
+	PlayerTextDrawUseBox(playerid, auto_salon_td[playerid][19], true);
+	PlayerTextDrawBoxColor(playerid, auto_salon_td[playerid][19], 10092458);
+	PlayerTextDrawSetShadow(playerid, auto_salon_td[playerid][19], 0);
+	PlayerTextDrawSetOutline(playerid, auto_salon_td[playerid][19], 0);
+	PlayerTextDrawFont(playerid, auto_salon_td[playerid][19], 0);
+
+	auto_salon_td[playerid][20] = CreatePlayerTextDraw(playerid, 547.950195, 255.393692, "жемю юбрнлнахкъ");
+	PlayerTextDrawLetterSize(playerid, auto_salon_td[playerid][20], 0.169348, 1.013751);
+	PlayerTextDrawAlignment(playerid, auto_salon_td[playerid][20], 1);
+	PlayerTextDrawColor(playerid, auto_salon_td[playerid][20], -1);
+	PlayerTextDrawSetShadow(playerid, auto_salon_td[playerid][20], 0);
+	PlayerTextDrawSetOutline(playerid, auto_salon_td[playerid][20], 0);
+	PlayerTextDrawBackgroundColor(playerid, auto_salon_td[playerid][20], 51);
+	PlayerTextDrawFont(playerid, auto_salon_td[playerid][20], 2);
+	PlayerTextDrawSetProportional(playerid, auto_salon_td[playerid][20], 1);
+
+	auto_salon_td[playerid][21] = CreatePlayerTextDraw(playerid, 609.000610, 269.331176, "usebox");
+	PlayerTextDrawLetterSize(playerid, auto_salon_td[playerid][21], 0.000000, 1.228888);
+	PlayerTextDrawTextSize(playerid, auto_salon_td[playerid][21], 550.900268, 0.000000);
+	PlayerTextDrawAlignment(playerid, auto_salon_td[playerid][21], 1);
+	PlayerTextDrawColor(playerid, auto_salon_td[playerid][21], 0);
+	PlayerTextDrawUseBox(playerid, auto_salon_td[playerid][21], true);
+	PlayerTextDrawBoxColor(playerid, auto_salon_td[playerid][21], 102);
+	PlayerTextDrawSetShadow(playerid, auto_salon_td[playerid][21], 0);
+	PlayerTextDrawSetOutline(playerid, auto_salon_td[playerid][21], 0);
+	PlayerTextDrawFont(playerid, auto_salon_td[playerid][21], 0);
+
+	auto_salon_td[playerid][22] = CreatePlayerTextDraw(playerid, 555.449951, 268.537384, "20000000 p.");
+	PlayerTextDrawLetterSize(playerid, auto_salon_td[playerid][22], 0.203448, 1.122251);
+	PlayerTextDrawAlignment(playerid, auto_salon_td[playerid][22], 1);
+	PlayerTextDrawColor(playerid, auto_salon_td[playerid][22], -1);
+	PlayerTextDrawSetShadow(playerid, auto_salon_td[playerid][22], 0);
+	PlayerTextDrawSetOutline(playerid, auto_salon_td[playerid][22], 0);
+	PlayerTextDrawBackgroundColor(playerid, auto_salon_td[playerid][22], 51);
+	PlayerTextDrawFont(playerid, auto_salon_td[playerid][22], 2);
+	PlayerTextDrawSetProportional(playerid, auto_salon_td[playerid][22], 1);
+
+	auto_salon_td[playerid][23] = CreatePlayerTextDraw(playerid, 545.200134, 268.749786, "$");
+	PlayerTextDrawLetterSize(playerid, auto_salon_td[playerid][23], 0.230998, 1.231624);
+	PlayerTextDrawAlignment(playerid, auto_salon_td[playerid][23], 1);
+	PlayerTextDrawColor(playerid, auto_salon_td[playerid][23], 8388863);
+	PlayerTextDrawSetShadow(playerid, auto_salon_td[playerid][23], 0);
+	PlayerTextDrawSetOutline(playerid, auto_salon_td[playerid][23], 0);
+	PlayerTextDrawBackgroundColor(playerid, auto_salon_td[playerid][23], 51);
+	PlayerTextDrawFont(playerid, auto_salon_td[playerid][23], 2);
+	PlayerTextDrawSetProportional(playerid, auto_salon_td[playerid][23], 1);
+
+	auto_salon_td[playerid][24] = CreatePlayerTextDraw(playerid, 556.899841, 236.506347, "жбер йсгнбю");
+	PlayerTextDrawLetterSize(playerid, auto_salon_td[playerid][24], 0.177549, 1.129688);
+	PlayerTextDrawAlignment(playerid, auto_salon_td[playerid][24], 1);
+	PlayerTextDrawColor(playerid, auto_salon_td[playerid][24], -1);
+	PlayerTextDrawSetShadow(playerid, auto_salon_td[playerid][24], 0);
+	PlayerTextDrawSetOutline(playerid, auto_salon_td[playerid][24], 0);
+	PlayerTextDrawBackgroundColor(playerid, auto_salon_td[playerid][24], 51);
+	PlayerTextDrawFont(playerid, auto_salon_td[playerid][24], 2);
+	PlayerTextDrawSetProportional(playerid, auto_salon_td[playerid][24], 1);
+
+	auto_salon_td[playerid][25] = CreatePlayerTextDraw(playerid, 577.999938, 292.043853, "usebox");
+	PlayerTextDrawLetterSize(playerid, auto_salon_td[playerid][25], 0.000000, 1.402778);
+	PlayerTextDrawTextSize(playerid, auto_salon_td[playerid][25], 518.299865, 0.000000);
+	PlayerTextDrawAlignment(playerid, auto_salon_td[playerid][25], 1);
+	PlayerTextDrawColor(playerid, auto_salon_td[playerid][25], 0);
+	PlayerTextDrawUseBox(playerid, auto_salon_td[playerid][25], true);
+	PlayerTextDrawBoxColor(playerid, auto_salon_td[playerid][25], -1714683792);
+	PlayerTextDrawSetShadow(playerid, auto_salon_td[playerid][25], 0);
+	PlayerTextDrawSetOutline(playerid, auto_salon_td[playerid][25], 0);
+	PlayerTextDrawFont(playerid, auto_salon_td[playerid][25], 0);
+
+	auto_salon_td[playerid][26] = CreatePlayerTextDraw(playerid, 523.900329, 292.456176, "опхнапеярх");
+	PlayerTextDrawLetterSize(playerid, auto_salon_td[playerid][26], 0.188849, 1.110877);
+	PlayerTextDrawTextSize(playerid, auto_salon_td[playerid][26], 572.000000, 32.375000);
+	PlayerTextDrawAlignment(playerid, auto_salon_td[playerid][26], 1);
+	PlayerTextDrawColor(playerid, auto_salon_td[playerid][26], -1);
+	PlayerTextDrawSetShadow(playerid, auto_salon_td[playerid][26], 0);
+	PlayerTextDrawSetOutline(playerid, auto_salon_td[playerid][26], 0);
+	PlayerTextDrawBackgroundColor(playerid, auto_salon_td[playerid][26], 51);
+	PlayerTextDrawFont(playerid, auto_salon_td[playerid][26], 2);
+	PlayerTextDrawSetProportional(playerid, auto_salon_td[playerid][26], 1);
+	PlayerTextDrawSetSelectable(playerid, auto_salon_td[playerid][26], true);
+
+	auto_salon_td[playerid][27] = CreatePlayerTextDraw(playerid, 638.450195, 291.906219, "usebox");
+	PlayerTextDrawLetterSize(playerid, auto_salon_td[playerid][27], 0.000000, 1.402778);
+	PlayerTextDrawTextSize(playerid, auto_salon_td[playerid][27], 577.750122, 0.000000);
+	PlayerTextDrawAlignment(playerid, auto_salon_td[playerid][27], 1);
+	PlayerTextDrawColor(playerid, auto_salon_td[playerid][27], 0);
+	PlayerTextDrawUseBox(playerid, auto_salon_td[playerid][27], true);
+	PlayerTextDrawBoxColor(playerid, auto_salon_td[playerid][27], -12242816);
+	PlayerTextDrawSetShadow(playerid, auto_salon_td[playerid][27], 0);
+	PlayerTextDrawSetOutline(playerid, auto_salon_td[playerid][27], 0);
+	PlayerTextDrawFont(playerid, auto_salon_td[playerid][27], 0);
+
+	auto_salon_td[playerid][28] = CreatePlayerTextDraw(playerid, 584.849914, 293.106262, "нрлемю");
+	PlayerTextDrawLetterSize(playerid, auto_salon_td[playerid][28], 0.284399, 1.038689);
+	PlayerTextDrawTextSize(playerid, auto_salon_td[playerid][28], 634.000000, 56.000000);
+	PlayerTextDrawAlignment(playerid, auto_salon_td[playerid][28], 1);
+	PlayerTextDrawColor(playerid, auto_salon_td[playerid][28], -1);
+	PlayerTextDrawSetShadow(playerid, auto_salon_td[playerid][28], 0);
+	PlayerTextDrawSetOutline(playerid, auto_salon_td[playerid][28], 0);
+	PlayerTextDrawBackgroundColor(playerid, auto_salon_td[playerid][28], 51);
+	PlayerTextDrawFont(playerid, auto_salon_td[playerid][28], 2);
+	PlayerTextDrawSetProportional(playerid, auto_salon_td[playerid][28], 1);
+	PlayerTextDrawSetSelectable(playerid, auto_salon_td[playerid][28], true);
